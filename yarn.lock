@@ -16,9 +16,9 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@puro/core@^0.1.0-alpha":
-  version "0.1.0-alpha"
-  resolved "https://registry.npmjs.org/@puro/core/-/core-0.1.0-alpha.tgz#579c64389f257b9b1c73e16a2c72f94c58e0929d"
+"@puro/core@0.1.0-alpha1":
+  version "0.1.0-alpha1"
+  resolved "https://registry.npmjs.org/@puro/core/-/core-0.1.0-alpha1.tgz#ba06db1c91b6b882a2926e0de7fa814b6ee4f6b9"
   dependencies:
     express "^4.16.4"
     lodash "^4.17.11"

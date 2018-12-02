@@ -15,8 +15,7 @@
     "preset": "ts-jest"
   },
   "dependencies": {
-    "@puro/core": "^0.1.0-alpha",
-    "mysql": "^2.16.0",
+    "@puro/core": "0.1.0-alpha1",
     "typeorm": "^0.2.9",
     "typescript": "^3.1.6"
   },
