@@ -28,15 +28,15 @@ import { BeforeInsert, BeforeUpdate } from 'typeorm';
 
 @Entity()
 export class Book {
-  @Schema('id')
+  @Schema()
   @PrimaryGeneratedColumn('uuid')
-  id!: number;
+  id!: string;
 
-  @Schema('title')
+  @Schema()
   @Column({ length: 128 })
   title!: string;
 
-  @Schema('position')
+  @Schema()
   @Column({ length: 256 })
   description!: string;
 
