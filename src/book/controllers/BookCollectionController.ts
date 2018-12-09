@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-import { Request, Controller, Schema } from '@puro/core';
+import { Controller, Schema, Request } from '@puro/core';
 
 import { Book } from '../entities/Book';
 

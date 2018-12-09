@@ -13,3 +13,6 @@ yarn-error.log
 
 # Sensitive
 config/*.json
+
+# Puro local directory
+.puro
