@@ -32,9 +32,7 @@ import { Plugin, getRepository } from '@puro/core';
 export class BookPlugin extends Plugin {
   protected getServices() {
     return {
-      bookRepository: async () => {
-        return getRepository(Book);
-      }
+      bookRepository: async () => getRepository(Book)
     };
   }
 
