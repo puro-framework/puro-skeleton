@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "tsc -p .",
-    "start": "node lib/index.js",
+    "serve": "node lib/index.js",
     "prettify": "prettier --single-quote --write 'src/**/*.ts' 'tests/**/*.ts'",
     "test": "jest"
   },
