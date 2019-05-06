@@ -38,8 +38,8 @@ export class BookPlugin extends Plugin {
 
   protected getRoutes() {
     return [
-      { path: '/books/:bookId', controller: BookController },
-      { path: '/books', controller: BookCollectionController }
+      { path: '/books/:bookId', controller: BookController, anonymous: true },
+      { path: '/books', controller: BookCollectionController, anonymous: true }
     ];
   }
 }

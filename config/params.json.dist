@@ -1,4 +1,7 @@
 {
+  "app": {
+    "secret": "c2VjcmV0"
+  },
   "database": {
     "type": "driver",
     "host": "127.0.0.1",

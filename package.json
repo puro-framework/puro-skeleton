@@ -1,13 +1,15 @@
 {
   "name": "puro-skeleton",
-  "version": "0.1.0-alpha1",
+  "version": "0.1.0-alpha2",
   "description": "Puro - Skeleton",
   "engines": {
     "node": "8"
   },
   "scripts": {
+    "start": "yarn build && yarn serve",
     "build": "tsc -p .",
     "serve": "node lib/index.js",
+    "migrate": "yarn build && typeorm schema:sync",
     "prettify": "prettier --single-quote --write 'src/**/*.ts' 'tests/**/*.ts'",
     "test": "jest"
   },
@@ -16,12 +18,13 @@
   },
   "dependencies": {
     "@puro/core": "0.1.0-alpha15",
-    "typeorm": "^0.2.9",
     "typescript": "^3.1.6"
   },
   "devDependencies": {
-    "@types/express": "^4.16.0",
+    "@types/express": "^4.16.1",
     "@types/jest": "^23.3.10",
+    "@types/passport": "^1.0.0",
+    "@types/passport-jwt": "^3.0.1",
     "jest": "^23.6.0",
     "prettier": "^1.15.3"
   }

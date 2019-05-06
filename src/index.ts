@@ -29,4 +29,4 @@ const puro = new Puro();
 
 puro.install(new BookPlugin());
 puro.prepare();
-puro.listen(8080);
+puro.listen(8080, '127.0.0.1');
