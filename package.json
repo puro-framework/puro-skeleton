@@ -3,7 +3,7 @@
   "version": "0.1.0-alpha2",
   "description": "Puro - Skeleton",
   "engines": {
-    "node": "8"
+    "node": "12"
   },
   "scripts": {
     "start": "yarn build && yarn serve",
@@ -17,15 +17,16 @@
     "preset": "ts-jest"
   },
   "dependencies": {
-    "@puro/core": "0.1.0-alpha15",
-    "typescript": "^3.1.6"
+    "@puro/core": "0.1.0-alpha19",
+    "typescript": "3.9.5"
   },
   "devDependencies": {
-    "@types/express": "^4.16.1",
-    "@types/jest": "^23.3.10",
-    "@types/passport": "^1.0.0",
-    "@types/passport-jwt": "^3.0.1",
-    "jest": "^23.6.0",
-    "prettier": "^1.15.3"
+    "@types/express": "4.17.0",
+    "@types/jest": "25.2.3",
+    "@types/node": "12.12.6",
+    "@types/passport": "1.0.3",
+    "@types/passport-jwt": "3.0.3",
+    "jest": "26.0.1",
+    "prettier": "2.0.5"
   }
 }
